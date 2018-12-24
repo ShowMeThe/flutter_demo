@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/Page.dart';
-import 'package:flutter_demo/PageReveal.dart';
-import 'PageIndicator.dart';
+import 'package:flutter_demo/Page/Page.dart';
+import 'package:flutter_demo/Page/PageReveal.dart';
+import 'package:flutter_demo/Page/PageIndicator.dart';
 
 void main() => runApp(MyApp());
 

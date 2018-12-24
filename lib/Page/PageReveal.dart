@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:flutter_demo/Page.dart';
+import 'package:flutter_demo/Page/Page.dart';
 import 'package:flutter/material.dart';
 
 class PageReveal extends StatelessWidget {
