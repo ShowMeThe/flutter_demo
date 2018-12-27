@@ -14,9 +14,23 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   @override
-  State<StatefulWidget> createState() {
-    return null;
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Center(
+      child: RaisedButton(onPressed: () {
+        showModalBottomSheet(
+            context: context,
+            builder: (context) {
+              return Container(
+                child: Padding(
+                  padding: const EdgeInsets.all(32.0),
+                  child: Text("1233"),
+                ),
+              );
+            });
+      }),
+    );
   }
 }
